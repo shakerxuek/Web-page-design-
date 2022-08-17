@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Term project</title>
+    <link rel="stylesheet" href="css/testcss.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    
+    <style type="text/css"> 
+        body{
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color:#000;
+            margin:0;
+            padding:0;
+        }
+        #banner{
+            height: 1020px;
+        }
+        .swiper-container{
+            width:100%;
+            height: 1020px;
+        }
+        .swiper-slide{
+            text-align: center;
+            font-size: 50px;
+            background: #fff;
+
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items:center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<!-- 头部 -->
+<div id="header">
+    <div class="containerx" id="jump4">
+        <div class="header_left">
+            <div class="tel"></div>
+            <div class="telephone">Contact: 825-986-2248</div>
+    </div>
+    <ul class="right">
+        <li><a href="https://www.ucalgary.ca">University of Calgary</a></li>
+        <li><a href="https://cas.ucalgary.ca/cas/login?service=https://portal.my.ucalgary.ca/psp/paprd/?cmd=start&ca.ucalgary.authent.ucid=true">Login</a></li>
+        <li><a href="https://d2l.ucalgary.ca/d2l/home">D2L</a></li>
+        <li><a href=>Presenter: Xue Kai</a></li>
+        <li><a href="https://arcg.is/1qGWWC0">The Story Map</a></li>
+    </div>
+</div>
+<!-- 导航 -->
+<div id="navi">
+    <div class="container">
+        <div class="logo left">
+			<img src="img/uc-horz-rgb.jpg">
+        </div>
+        <ul class="right">
+			<li><a1 href="#">Analysis of China's population distribution based on transportation and water resoureces</a></li>
+			<li><a href="#jump1">Data</a></li>
+			<li><a href="#jump2">checkpoint 2</a></li>
+			<li><a href="#jump3">checkpoint 3</a></li>
+            <li><a href="#jump4">Top</a></li>
+		</ul>
+    </div>
+</div>
+<!-- banner -->
+<div id="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/p1.jpg" width="100%;" height="1020"></div>
+            <div class="swiper-slide"><img src="img/p2.jpg" width="100%;" height="1020"></div>
+            <div class="swiper-slide"><img src='img/p3.jpg' width="100%;" height="1020"></div>
+            <div class="swiper-slide"><img src='img/p4.jpg' width="100%;" height="1020"></div>
+            <div class="swiper-slide"><img src='img/p5.jpg' width="100%;" height="1020"></div>
+        </div>
+    </div>
+    <div class="banner-nav-bg"></div>
+</div>
+
+<!-- content -->
+<div id="content1">
+    <div class="container">
+        <p class="begin">
+            <span style><strong>1.4</strong> billion population...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span style>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>9.7</strong> million square kilometers...</span>
+            <span style><strong>5000</strong> years of history...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </p>
+        <div class="pic1">
+            <img src="img/popula.jpg" width="800px"  height="450">
+        </div>
+        <div class="pic2">
+            <img src="img/land.jpg" width="800px"  height="450">
+        </div>
+        <div class="pic3">
+            <img src="img/history.jpg" width="800px"  height="450">
+        </div>
+        <div class="word1">"Which country will come into your mind?"</div>
+        <div class="word2">"China."</div>
+        <div class="word3">China has long been known for its large <strong>population</strong>.<br/><br/>In recent years, China has developed rapidly, both <br/>in terms of economy and global influence. In this process, China’s huge <strong>population</strong> has made a significant contribution. <br/><br/>A huge <strong>population</strong> base means a huge labor force, which provides necessary assistance and a solid foundation for development.</div>
+        <div class="word4">"However,"</div>
+    </div>
+</div>
+
+<div id="content2">
+        <div class="content2-header">
+            <img src="img/expop.jpg" width="100%" height="1080" alt="">
+            <p>The huge population base is like a <strong>double-edged sword</strong>, the demographic dividend also<br/>poses challenges to China’s society and development. One of the most critical issues is:</p>
+            <div class="uneven"><strong>uneven population distribution.</strong></div>
+        </div>
+        <div class="word1">Transportation.</div>
+        <div class="word2">Water resource.</div>
+        <div class="word3">Many factors affect the distribution of population.</div>
+        <div class="content2-map">
+            <img src="img/chinar.png" width="100%" height="1020" alt="">
+        </div>
+        <div class="ample">
+            <img src="img/prov.png" alt="">
+        </div>
+        <div class="word4">Due to the influence of terrain and natural environment,<br/> the distribution of roads is mainly concentrated in the <br/> western part of the province.
+            <br/><br/>The population distribution of Taiwan Province is also <br/> concentrated in a few cities in the <strong>western</strong> part of the island.
+            <br/><br/>We have reason to believe that there is a certain internal <br/> connection between these geometries. 
+            <br/><br/><strong>Analyzing and understanding these relationships will <br/> help solve the problem of uneven population distribution <br/> in China.</strong>
+        </div>
+</div>
+
+<div id="week2">
+    <div class="container">
+        <div class="week2_top" id="jump2"><span>Week2：Initial Geoprocessing</span></div>
+            <div class="begin"><strong>Figure it out.</strong> </div>
+            <div class="begin2">To find out the internal connection between geometries and population distribution.<br/>We need to have a clear understanding about the population of different provinces in China.</div>
+            <div class="beimg">
+                <img src="img/Layout1.png" width="700" height="550" alt="">
+                <p>By applying Geotools reclassify, this figure shows the population distribution of different provinces in China.</p>
+            </div>
+            <div class="beimg2">
+                <img src="img/Layout2.png" width="700" height="550" alt="">
+                <p>Besides, by applying reclassify and changing a clear symbology, this figure shows the population density based on raster file.</p>
+            </div>
+            <div class="beimg3">
+                <img src="img/Layout3.png" width="700" height="550" alt="">
+                <p>By combining layers, this figure shows the water distribution.</p>
+            </div>
+            <div class="beimg4">
+                <img src="img/Layout4.png" width="700" height="550" alt="">
+                <p>To reveal transportation information, by combining layers, this figure shows the road and railroad distribution.</p>
+            </div>
+            <div class="beimg5">
+                <img src="img/Layout5.png" width="700" height="550" alt="">
+                <p>Land cover is also a vital geometry to consider, but this figure is not clear for analysis.</p>
+            </div>
+            <div class="beimg6">
+                <img src="img/Layout6.png" width="700" height="550" alt="">
+                <p>By applying reclassify and changing a clear symbology, this figure shows the land cover of China.</p>
+            </div>
+            <div class="beimg7">
+                <img src="img/Layout7.png" width="700" height="550" alt="">
+                <p>Last but not least, the elevation information is also vital for the population distribution, this figure shows the Elevation of China.</p>
+            </div>
+            <div class="end">Basically, in this week, I have processed the different types of data and start some basic analysis.</div>
+    </div>
+</div>
+
+<div id="week3">
+    <div class="container">
+        <div class="week3_top" id="jump3"><span>Week3：Data Processing and Analysis</span></div>
+        <div class="begin"><strong>Spot the pattern.</strong></div>
+        <div class="grid box">
+            <div class="cell">
+                <img src="img/L2.png" width="700" height="550" alt="">
+            </div>
+            <div class="cell2"><strong>Step1: Find the intersections of road and railroad</strong><br/><br/>Based on the collected data, in order to obtain information that reflects the transportation and can be used for further analysis, I intersected the shapefiles of road and railroad, then extracted the intersection points as a new layer.</div>
+        </div>
+        <div class="grid2 box">
+            <div class="cell3"><strong>Step2: Buffer the intersection points</strong><br/><br/>Given that the impact of traffic on the surrounding area is diffuse, I used buffer to reflect its influence.</div>
+            <div class="cell">
+                <img src="img/L3.png" width="700" height="550" alt="">
+            </div>
+        </div>
+        <div class="grid box">
+            <div class="cell">
+                <img src="img/L1.png" width="700" height="550" alt="">
+            </div>
+            <div class="cell2"><strong>Step3: Find the intersections of transportation and river</strong><br/><br/>By intersecting the shapefile of the river distribution with the buffer area generated in the previous step, I got points where traffic and water resources are relatively abundant.</div>
+        </div>
+        <div class="grid2 box">
+            <div class="cell3"><strong>Interestingly, there are more such points in densely populated areas.</strong><br/><br/>The color of the basemap varies from yellow to red, representing the increasing population density. As you can see, there are significantly more points around the red area than the lighter color area. To some extent, this reflects the relationship between population distribution and the aforementioned two factors.</div>
+            <div class="cell">
+                <img src="img/L8.png" width="700" height="550" alt="">
+            </div>
+        </div>
+        <div class="grid box">
+            <div class="cell">
+                <img src="img/L6.png" width="700" height="550" alt="">
+            </div>
+            <div class="cell2"><strong>Relationship between elevation and points of interest is impressive.</strong><br/><br/>The color of the basemap from green to red shows the altitude from low to high. The points of interest are mainly concentrated in areas with low altitude and relatively flat terrain. Although altitude does not seem to have a direct impact on the distribution of population, it indirectly affects the distribution of population by influencing the distribution of water resources and transportation.</div>
+        </div>
+        <div class="grid2 box">
+            <div class="cell3"><strong>Same thing happened on land cover</strong><br/><br/>The color of the basemap from blue to red shows the land cover from high to low. It is worth noting that the population and points of interest are tend to concentrated in areas with lower land cover, the causality among them is difficult to judge. It also reflects that the impact of human activities on the natural environment cannot be ignored.</div>
+            <div class="cell">
+                <img src="img/LL.png" width="700" height="550" alt="">
+            </div>
+        </div>
+        <div class="grid box">
+            <div class="cell">
+                <img src="img/w3.png" width="1350" height="550" alt="">
+            </div>
+            <div class="cell4"><strong>This figure shows the model for the previous steps.</strong></div>
+        </div>
+        <div class="grid2 box">
+            <div class="cell3"><strong>Step4: Calculate the points of interest in the provinces</strong><br/><br/>The color of the basemap from light to dark reflects the population of China’s provinces from small to large. I used summarize within to calculate how many points of interest are in each province.</div>
+            <div class="cell">
+                <img src="img/L.png" width="700" height="550" alt="">
+            </div>
+        </div>
+        <div class="grid box">
+            <div class="cell">
+                <img src="img/w.png" width="750" height="550" alt="">
+            </div>
+            <div class="cell2"><strong>Further processing of data</strong><br/><br/>Considering that the area of each province is different, I divided the number of points of interest obtained in each province by the area of the province. It can be seen that the value obtained has a close relationship with the population of each province.</div>
+        </div>
+        <div class="grid2 box">
+            <div class="cell">
+                <img src="img/w2.png" width="1350" height="550" alt="">
+            </div>
+            <div class="cell4"><strong>This figure shows the model for the step 4.</strong></div>
+        </div>
+        <!-- <div class="grid box">
+            <div class="cell">
+                <img src="img/L2.png" width="700" height="550" alt="">
+            </div>
+            <div class="cell2"><strong></strong><br/><br/></div>
+        </div>
+        <div class="grid2 box">
+            <div class="cell3"><strong></strong><br/><br/></div>
+            <div class="cell">
+                <img src="img/L3.png" width="700" height="550" alt="">
+            </div>
+        </div> -->
+    </div>
+</div>
+<!-- 附件 -->
+<!-- <div id="accessory">
+    <div class="container">
+        <div class="acc_top">
+			<img src>
+        </div>
+        <div class="acc_main">
+			<div class="acc_left left">
+				<div>
+					<img src>
+				</div>
+				<div class="acc_all" id="jump2">
+					<p></p>
+					<ul>
+						<li>刀</li>
+						<li>枪</li>
+						<li>剑</li>
+						<li>戟</li>
+						<li>斧钺</li>
+						<li>钩叉</li>
+					</ul>
+					<h2 class="line"></h2>
+					<p class="acc">全部<span></span></p>
+                </div>
+                <div>
+					<img src>
+                </div>
+                <div>
+					<img src>
+                </div>
+            </div>
+            <div class="acc_right right" >
+				<div>
+					<img src>
+				</div>
+				<div>
+					<img src>
+				</div>
+				<div>
+					<img src>
+				</div>
+				<div>
+					<img src>
+                </div>
+			</div>
+		</div>
+    </div>
+</div> -->
+
+<div id="star">
+    <div class="container">
+        <div class="star_top" id="jump1"><span>Datasets and Arcgis Online links</span></div>
+        <ul>
+            <li>
+                <a href="http://www.diva-gis.org/gdata">
+                    <img src="img/pop1.jpg">
+                </a>
+                <h2>Population</h2>
+                <p>population density of China</p>
+                <p class="money"><span></span></p>
+            </li>
+
+            <li>
+                <a href="http://www.diva-gis.org/gdata">
+                    <img src="img/road.jpg">
+                </a>
+                <h2>Road</h2>
+                <p>road distribution of China</p>
+                <p class="money"><span></span></p>
+            </li>
+
+            <li>
+                <a href="https://www.openstreetmap.org/relation/270056#map=4/34.00/106.46">
+                    <img src="img/rail.jpg">
+                </a>
+                <h2>Railroad</h2>
+                <p>Railroad distribution of China</p>
+                <p class="money"><span></span></p>
+            </li>
+
+            <li>
+                <a href="https://www.openstreetmap.org/relation/270056#map=4/34.00/106.46">
+                    <img src="img/water.jpg">
+                </a>
+                <h2>Inland Water</h2>
+                <p>River distribution of China</p>
+                <p class="money"><span></span></p>
+            </li>
+
+            <li>
+                <a href="http://www.diva-gis.org/gdata">
+                    <img src="img/adm.jpg">
+                </a>
+                <h2>Admin Region</h2>
+                <p>Province of China</p>
+                <p class="money"><span></span></p>
+            </li>
+
+            <li>
+                <a href="http://www.diva-gis.org/gdata">
+                    <img src="img/lc.jpg">
+                </a>
+                <h2>Land Cover</h2>
+                <p>Land cover of China</p>
+                <p class="money"><span></span></p>
+            </li>
+
+            <li>
+                <a href="http://www.diva-gis.org/gdata">
+                    <img src="img/ele.jpg">
+                </a>
+                <h2>Elevation</h2>
+                <p>Elevation of China</p>
+                <p class="money"><span></span></p>
+            </li>
+
+            <li>
+                <a href="https://arcg.is/1Lrjfa">
+                    <img src="img/arc.jpg">
+                </a>
+                <h2>Arcgis online</h2>
+                <p>link of Arcgis online</p>
+                <p class="money"><span></span></p>
+            </li>
+
+            
+        </ul>
+    </div>
+</div>
+
+<div id="sm">
+    <div class="container">
+        <iframe width="100%" height="800px" src="https://ucalgary.maps.arcgis.com/apps/MapJournal/index.html?appid=1f75c20b85534692b979dbc2bc1cc23a" frameborder="0" scrolling="no"></iframe>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="Javascript/swiper.js"></script>
+<script src="Javascript/index.js"></script>
+<script type="text/javascript">
+    var swiper=new Swiper('.swiper-container',{
+        pagination:'.swiper-pagination',
+        paginationClickable:true,
+        loop:true,
+        autoplay:{
+            delay:1600,
+            disableOnInteraction:false,
+        },
+        speed:1000,
+        prevButton:'.swiper-button-prev',
+        nextButton:'.swiper-button-next',
+        effect:'fade',
+        grabCursor:true,
+        cube:{
+            shadow:false,
+            slideShadows:false,
+            shadowOffset:20,
+            shadowScale:0.94
+        }
+    });
+</script>
+</body>
+</html>
